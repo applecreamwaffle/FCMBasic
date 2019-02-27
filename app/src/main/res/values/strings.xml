@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NEXO WATER</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stop service</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="nexo_notification_channel_id" translatable="false">nexo_default_channel</string>
+    <string name="nexo_notification_channel_name" translatable="true">Dust</string>
+
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+    <string name="no_google_playservice_available">No Google Playservice found. Please install it.</string>
+    <string name="title_alert_no_intenet">네트워크 연결 오류</string>
+    <string name="msg_alert_no_internet">네트워크 연결 상태 확인 후 다시 시도 바랍니다.</string>
+    <string name="btn_label_refresh">새로고침</string>
+
+    <string name="permission_rationale">Please grant location permission to start the service</string>
+    <string name="permission_denied_explanation">You have not granted location permission. So the service cannot be started.</string>
+    <string name="settings">settings</string>
+
+    <string name="preference_key">kr.mog.nexowater.private</string>
+</resources>

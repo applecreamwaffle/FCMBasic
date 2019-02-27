@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/baseWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-7dp"
+        android:background="@android:color/transparent"
+        android:indeterminate="false"
+        android:progressTint="@color/colorPrimary"
+        android:max="100"
+        android:progress="1"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:borderWidth="0dp"
+        android:elevation="6dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_refresh_black_24dp"/>
+
+    <!--
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/firebase_lockup_400" />
+
+        <TextView
+            android:id="@+id/informationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/quickstart_message" />
+
+        <Button
+            android:id="@+id/subscribeButton"
+            android:layout_width="@dimen/standard_field_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/subscribe_to_weather" />
+
+        <Button
+            android:id="@+id/logTokenButton"
+            android:layout_width="@dimen/standard_field_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/log_token" />
+
+        <Button
+            android:id="@+id/startServiceButton"
+            android:layout_width="@dimen/standard_field_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start_service" />
+
+        <Button
+            android:id="@+id/stopServiceButton"
+            android:layout_width="@dimen/standard_field_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/stop_service" />
+    -->
+</RelativeLayout>
